@@ -9,6 +9,7 @@ else:
             count += 1
 
     if count == 2:
-        print("Prime Number")
+        print("leap year")
     else:
-        print("Not a Prime Number")
+        print("Not a leap year")
+
