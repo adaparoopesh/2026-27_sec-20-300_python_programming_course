@@ -1,6 +1,14 @@
-year = int(input("Enter a year: "))
+num = int(input("Enter a number: "))
 
-if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
-    print("Leap Year")
+if num < 2:
+    print("Not a Prime Number")
 else:
-    print("Not a Leap Year")
+    count = 0
+    for i in range(1, num + 1):
+        if num % i == 0:
+            count += 1
+
+    if count == 2:
+        print("Prime Number")
+    else:
+        print("Not a Prime Number")
