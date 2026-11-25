@@ -1,20 +1,15 @@
-# Create a student dictionary
 student = {
     "name": "Roopesh",
     "age": 18,
     "course": "B.Tech"
 }
 
-# Display original dictionary
 print("Original Student Details:")
 print(student)
 
-# Update age
 student["age"] = 19
 
-# Add city
 student["city"] = "Vijayawada"
 
-# Display updated dictionary
 print("\nUpdated Student Details:")
 print(student)

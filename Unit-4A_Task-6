@@ -5,17 +5,14 @@ subjects = {
     "HTML": 95
 }
 
-# Print keys
 print("Keys:")
 for key in subjects.keys():
     print(key)
 
-# Print values
 print("\nValues:")
 for value in subjects.values():
     print(value)
 
-# Print items
 print("\nItems:")
 for key, value in subjects.items():
     print(key, ":", value)

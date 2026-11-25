@@ -5,14 +5,12 @@ students = [
     {"name": "Arun", "marks": 95}
 ]
 
-# Sort in ascending order
 ascending = sorted(students, key=lambda x: x["marks"])
 
 print("Ascending Order:")
 for student in ascending:
     print(student)
 
-# Sort in descending order
 descending = sorted(students, key=lambda x: x["marks"], reverse=True)
 
 print("\nDescending Order:")
