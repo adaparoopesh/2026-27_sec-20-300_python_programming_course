@@ -1,0 +1,21 @@
+subjects = {
+    "Python": 90,
+    "Java": 85,
+    "C": 80,
+    "HTML": 95
+}
+
+# Print keys
+print("Keys:")
+for key in subjects.keys():
+    print(key)
+
+# Print values
+print("\nValues:")
+for value in subjects.values():
+    print(value)
+
+# Print items
+print("\nItems:")
+for key, value in subjects.items():
+    print(key, ":", value)
